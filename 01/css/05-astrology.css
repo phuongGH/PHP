@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #1BBAF2 url('../images/backgroud-body.jpg') no-repeat fixed center;
+	/*
+	background: #1BBAF2 url('../images/backgroud-body.jpg') no-repeat left top;
+	
+	background-image: url(../images/backgroud-body.jpg);
+    background-attachment: fixed;
+	*/
+}
+	
+.content{
+	width: 800px;
+	height: 600px;
+	background: #F8F8FF;
+	margin: 0px auto;
+	text-align: center;
+	/*color: yellow; */
+}
+
+.content form{
+	padding-top: 30px;
+	line-height: 40px;
+}
+.content form select{
+	width: 150px;
+}
+
+.content table{
+	width: 600px;
+	margin: 10px auto;
+}
+
+.content table  tr td h3{
+	padding-left: 30px;
+	color: #2C8DE8;
+	float: left;
+	display: block;
+
+}
+
+.content table tr td .image{
+	padding-right: 20px;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.content table tr td .icon{
+	padding-left: 30px;
+	padding-top: 13px;
+	float: left;
+	overflow: hidden;
+}
+.content table  tr td h4{
+	color: #2C8DE8;
+	padding-left: 10px;
+	float: left;
+}
+.content table  tr td span{
+	color: #D39104;
+	text-align: justify;
+}

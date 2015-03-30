@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #1BBAF2 url('../images/backgroud-body.jpg') no-repeat fixed center;
+	/*
+	background: #1BBAF2 url('../images/backgroud-body.jpg') no-repeat left top;
+	
+	background-image: url(../images/backgroud-body.jpg);
+    background-attachment: fixed;
+	*/
+}
+	
+.content{
+	width: 800px;
+	height: 600px;
+	background: #F8F8FF;
+	margin: 0px auto;
+	text-align: center;
+	/*color: yellow; */
+}
+
+.content form{
+	padding-top: 30px;
+	line-height: 40px;
+}
+.content form select{
+	width: 150px;
+}

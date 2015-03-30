@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #1BBAF2 url('../images/backgroud-body.jpg') no-repeat fixed center;
+}
+	
+.content{
+	width: 800px;
+	min-height: 600px;
+	background: url('../images/06/notebook_bg.png') no-repeat;
+	margin: 0px auto;
+	/*color: yellow; */
+}
+
+.content h1{
+	text-align: center;
+	color: red;
+	margin-top: 14px;
+}
+.content ul{
+	margin-left: 160px;
+	font-size: 18px;
+}
+.content ul li{
+	margin-top: 22px;
+	list-style: decimal inside;
+}

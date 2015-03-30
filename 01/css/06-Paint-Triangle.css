@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #1BBAF2 url('../images/backgroud-body.jpg') no-repeat fixed center;
+}
+	
+.content{
+	width: 800px;
+	min-height: 600px;
+	background: #F8F8FF;
+	margin: 0px auto;
+	/*color: yellow; */
+}
+
+.content h1{
+	text-align: center;
+	color: red;
+	margin-top: 14px;
+}
+
+.content ul{
+	margin: 20px auto;
+	width:600px;
+}
+
+.content ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+
+.content ul li a{
+	display:block;
+}
+
+.result {
+	padding-left:350px;
+}
+
+.control{
+	margin: 20px auto;
+	width: 300px;
+	line-height: 30px;
+}
+
+
+.control div input{
+	float: right;
+	margin-top:5px;
+}
+
+.btn1{
+	background-image:url("../images/06/1.png");
+	width:165px;
+	height:152px;
+	text-indent: -10000px;
+	background-color:transparent;
+	border: none;
+	overflow: hidden;
+}
+.btn2{
+	background-image:url("../images/06/2.png");
+	width:165px;
+	height:152px;
+	text-indent: -10000px;
+	background-color:transparent;
+	border: none;
+	overflow: hidden;
+}
+.btn3{
+	background-image:url("../images/06/3.png");
+	width:165px;
+	height:152px;
+	text-indent: -10000px;
+	background-color:transparent;
+	border: none;
+	overflow: hidden;
+}
+
+#btn{
+	margin-left: 150px;
+}
